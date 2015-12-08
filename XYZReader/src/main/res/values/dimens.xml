@@ -1,0 +1,31 @@
+<resources>
+    <!-- detail -->
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- standard metrics -->
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="bottomsheet_elevation">16dp</dimen>
+    <dimen name="elevation_appbar">4dp</dimen>
+
+    <item name="image_aspect_ratio" format="float" type="dimen">1.5</item>
+
+    <dimen name="bar_height">56dp</dimen>
+    <dimen name="side_margin">16dp</dimen>
+
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+
+
+
+
+
+
+</resources>

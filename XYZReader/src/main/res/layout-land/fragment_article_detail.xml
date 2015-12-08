@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    style="@style/Match">
+
+        <FrameLayout
+            android:orientation="vertical"
+            style="@style/Match">
+
+            <com.example.xyzreader.ui.widget.ImageViewKeepRatio
+                android:id="@+id/backdrop"
+                app:width_height_ratio="@dimen/image_aspect_ratio"
+                style="@style/Fill.Width" />
+
+            <!-- The white sheet -->
+            <com.example.xyzreader.ui.widget.MaxWidthCardView
+                android:id="@+id/content_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginTop="@dimen/detail_card_top_margin"
+                android:maxWidth="@dimen/detail_card_max_width"
+                android:layout_gravity="center_horizontal"
+                app:cardPreventCornerOverlap="false">
+
+                <!-- Your main frame container where you put your fragment -->
+                <FrameLayout
+                    android:id="@+id/frame_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        style="@style/Fill.Width"
+                        android:background="@android:color/white">
+
+                        <LinearLayout
+                            android:id="@+id/title_container"
+                            style="@style/ArticleDetailTitleContainer">
+
+                            <TextView
+                                android:id="@+id/article_title"
+                                style="@style/ArticleDetailTitle"/>
+
+
+                            <TextView
+                                android:id="@+id/article_byline"
+                                style="@style/ArticleDetailByline"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/article_body"
+                            style="@style/ArticleDetailBody"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </com.example.xyzreader.ui.widget.MaxWidthCardView>
+
+
+
+        </FrameLayout>
+
+</android.support.v4.widget.NestedScrollView>

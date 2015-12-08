@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
+
+    <string name="up">Up</string>
+    <string name="retry">Retry</string>
+
+    <string name="article_meta">%1$s, by %2$s </string>
+
+    <string name="error_network">No connection</string>
+
+</resources>

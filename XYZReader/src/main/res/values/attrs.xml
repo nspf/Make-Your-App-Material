@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="ImageViewKeepRatio">
+        <attr name="width_height_ratio" format="float" />
+    </declare-styleable>
+</resources>
